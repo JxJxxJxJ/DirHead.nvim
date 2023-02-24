@@ -23,7 +23,7 @@ Then, run `:PackerInstall` in your Neovim configuration file or reload Neovim.
 
 DirHead will automatically add a header to your files when you save them. The header will include the path of the current file. Here's an example of what a file might look like before and after using DirHead:
 
-###Before:
+Before:
 ```txt
 This is my file.
 
@@ -31,7 +31,7 @@ It contains some text.
 
 And more text.
 ```
-###After:
+After:
 ```txt
 ~/Documents/myfile.txt
 
