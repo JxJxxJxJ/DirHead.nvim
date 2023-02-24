@@ -12,7 +12,7 @@ DirHead is a plugin for Neovim that adds the current directory path as a header 
 To install DirHead using [Packer](https://github.com/wbthomason/packer.nvim), add the following line to your plugin configuration file:
 
 ```lua
-use 'JxJxxJxJ/DirHead'
+use { 'JxJxxJxJ/DirHead', config = function() require('dirhead').setup() end }
 ```
 
 Then, run `:PackerInstall` in your Neovim configuration file or reload Neovim.
